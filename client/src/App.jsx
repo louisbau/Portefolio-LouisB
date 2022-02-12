@@ -6,6 +6,7 @@ import Works from './Components/works/Works';
 import Contact from './Components/contact/Contact';
 import Menu from './Components/menu/Menu';
 import './app.scss'
+import Competence from './Components/Competence/Competence';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -15,6 +16,7 @@ const App = () => {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
+        <Competence/>
         <Portfolio/>
         <Works/>
         <Contact/>

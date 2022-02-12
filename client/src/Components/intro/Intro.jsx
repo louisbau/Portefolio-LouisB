@@ -11,7 +11,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 50,
-      strings: ['Developer', 'Network Administrator', 'System Administrator'], 
+      strings: ['Full Stack Developer', 'Network Administrator', 'System Administrator'], 
     });
   }, []);
 

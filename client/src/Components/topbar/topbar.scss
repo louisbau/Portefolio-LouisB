@@ -3,7 +3,7 @@
     width: 100px;
     height: 35%;
     position: fixed;
-    
+    overflow: hidden;
     top:0;
     transition: all 1s ease;
     z-index: 3;
@@ -17,6 +17,7 @@
         flex-direction: column;
         justify-content: space-between;
         .left{
+            overflow: hidden;
             .hamburger{
                 z-index: 3;
                 padding-top: 30px;
@@ -53,6 +54,8 @@
                     transition: all 2s ease;
                 }
                 .icon{
+                    background-color: none;
+                    color: $mainColor;
                     margin-bottom: 10px;
                     cursor: pointer;
                 }

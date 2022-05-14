@@ -16,7 +16,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 </div>
                 <div className="social-links">
                     <a href='https://github.com/louisbau' target="_blank"><GitHubIcon className="icon"/></a>
-                    <a href='https://fr.linkedin.com/' target="_blank"><LinkedInIcon className="icon" /></a>
+                    <a href='https://www.linkedin.com/in/louis-bauchau-43b975211/' target="_blank"><LinkedInIcon className="icon" /></a>
                     <a href='#about'><Mail className="icon" /></a>
                     <a href='#about'><PhoneIcon className="icon" /></a>
                     <span className='line2'></span>

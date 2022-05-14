@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Intro from './Components/intro/Intro';
 import Topbar from './Components/topbar/Topbar';
-import Portfolio from './Components/portfolio/Portfolio';
 import Works from './Components/works/Works';
 import Contact from './Components/contact/Contact';
 import Menu from './Components/menu/Menu';
 import './app.scss'
 import About from './Components/about/About';
+import Activities from './Components/activities/Activities';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -17,9 +17,7 @@ const App = () => {
       <div className="sections">
         <Intro/>
         <About/>
-        <Portfolio/>
-        <Works/>
-        <Contact/>
+        <Activities/>
       </div>
     </div>
   );

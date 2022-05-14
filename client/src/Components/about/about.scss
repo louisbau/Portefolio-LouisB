@@ -1,10 +1,36 @@
 .about{
     background-color: rgb(23, 23, 51);
     color:rgb(144, 120, 231);
-    padding-left: 300px;
-    padding-top: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
     .h1{
         font-size: 60px;
         margin: 10px 0;
+    }
+    .h2{
+        font-size: 25px;
+        font-style: italic;
+        color:rgb(228, 187, 187);
+        padding-left: 0%;
+        padding-right: 0%;
+        border-right: 0%;
+        border-left: 0%;
+        margin-left: 5%;
+        padding-top: 30px;
+        width: 75%;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgb(228, 187, 187);
+        border-top: 1px solid rgb(228, 187, 187);
+    }
+    .text{
+        width: 80%;
+        height: auto;
+        font-size: 20px;
+        font-style: italic;
+        padding-top: 15px;
+        inline-size: auto;
+    }
+    .list{
+        border-radius: 10%;
     }
 }

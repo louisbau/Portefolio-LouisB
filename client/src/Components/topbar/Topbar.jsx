@@ -5,6 +5,10 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
+
+  const test = () => {
+    document.getElementById("list").focus();
+  }
   return (
     <div className={'topbar ' + (menuOpen && "active")}>
         <div className="wrapper">
@@ -17,7 +21,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                 <div className="social-links">
                     <a href='https://github.com/louisbau' target="_blank"><GitHubIcon className="icon"/></a>
                     <a href='https://www.linkedin.com/in/louis-bauchau-43b975211/' target="_blank"><LinkedInIcon className="icon" /></a>
-                    <a href='#about'><Mail className="icon" /></a>
+                    <a href='#about' onClick={test}><Mail className="icon" /></a>
                     <a href='#about'><PhoneIcon className="icon" /></a>
                     <span className='line2'></span>
                 </div>

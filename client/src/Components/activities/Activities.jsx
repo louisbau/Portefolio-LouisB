@@ -7,12 +7,17 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-
+import Tutorat from '../dialog/Tutorat';
+import Donate from '../dialog/Donate';
+import Nas from '../dialog/Nas';
+import Sport from '../dialog/Sport';
+import StudentJobs from '../dialog/StudentJobs';
+import Travel from '../dialog/Travel';
 
 
 export default function Activities() {
     return (
-        <div className='activities' id="activities">
+        <div className='activities' id="activities" style={{backgroundImage: `url("assets/ITLB_B_BG-2.png")`}}>
             <TableContainer component={Paper} sx={{ minWidth: 800, maxWidth: 1400 }}>
                 <Table>
                     <TableHead>
@@ -32,7 +37,7 @@ export default function Activities() {
                             <TableCell align="center">Ephec</TableCell>
                             <TableCell align="center">10</TableCell>
                             <TableCell align="center">+15</TableCell>
-                            <TableCell align="left">I have given more than 10 hours of courses at EPHEC in Mathematics and Development since my first year.</TableCell>
+                            <TableCell align="left"><Tutorat/></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell align="center" className='firstcolonne'>Resetting computers to donate</TableCell>
@@ -40,15 +45,15 @@ export default function Activities() {
                             <TableCell align="center">At Home, Saint André</TableCell>
                             <TableCell align="center">10</TableCell>
                             <TableCell align="center">2 full days</TableCell>
-                            <TableCell align="left">I have reset more than 5 laptops to give to my former elementary school, Saint Andre. because during the pandemic many primary school students did not have access to laptops at home</TableCell>
+                            <TableCell align="left"><Donate/></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell align="center" className='firstcolonne'>Sport</TableCell>
                             <TableCell align="center">2019-2022</TableCell>
                             <TableCell align="center">LLN, BX, Waterlo, ...</TableCell>
                             <TableCell align="center">10</TableCell>
-                            <TableCell align="center">+300</TableCell>
-                            <TableCell align="left">I do at least 4 hours of sport a week since I was a kid and I still play field hockey at LLN every Wednesday and I also play soccer on Saturday</TableCell>
+                            <TableCell align="center">+1000</TableCell>
+                            <TableCell align="left"><Sport/></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell align="center" className='firstcolonne'>Student job</TableCell>
@@ -56,7 +61,7 @@ export default function Activities() {
                             <TableCell align="center">SCCB</TableCell>
                             <TableCell align="center">10</TableCell>
                             <TableCell align="center">2 week (8h per day)</TableCell>
-                            <TableCell align="left">I have been working as a ... in the company SCCB during 2 weeks </TableCell>
+                            <TableCell align="left"><StudentJobs/></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell align="center" className='firstcolonne'>NAS deployment</TableCell>
@@ -64,7 +69,7 @@ export default function Activities() {
                             <TableCell align="center">Father Home</TableCell>
                             <TableCell align="center">10</TableCell>
                             <TableCell align="center">3 days (+- 15h)</TableCell>
-                            <TableCell align="left">I have installed and configured a NAS to allow my father to store photos as he is a photographer</TableCell>
+                            <TableCell align="left"><Nas/></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell align="center" className='firstcolonne'>Travel</TableCell>
@@ -72,7 +77,7 @@ export default function Activities() {
                             <TableCell align="center">Word</TableCell>
                             <TableCell align="center">10</TableCell>
                             <TableCell align="center">many weeks</TableCell>
-                            <TableCell align="left">I had the chance to do a lot of travelling after and before the pandemic, I went to Venice, Switzerland, Egypt and Lisbon, Palma, ...</TableCell>
+                            <TableCell align="left"><Travel/></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell align="center" className='head'>Total : </TableCell>

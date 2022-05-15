@@ -16,7 +16,7 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className='intro' id='intro'>
+    <div className='intro' id='intro' style={{backgroundImage: `url("assets/ITLB_B_BG-2.png")`}}>
         <div className="left"> 
           <div className="wrapper">
             <h2>HI there, I'm</h2>

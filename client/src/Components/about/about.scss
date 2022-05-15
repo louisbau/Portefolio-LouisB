@@ -1,16 +1,19 @@
 .about{
-    background-color: rgb(23, 23, 51);
-    color:rgb(144, 120, 231);
+    background-color: rgb(194, 230, 250);
+    color:black;
     padding-left: 100px;
     padding-top: 10px;
     .h1{
         font-size: 60px;
-        margin: 10px 0;
+        margin-top: 10px;
+        width: fit-content;
+        border: 0;
+        padding: 0;
     }
     .h2{
         font-size: 25px;
         font-style: italic;
-        color:rgb(228, 187, 187);
+        color:rgb(193, 91, 91);
         padding-left: 0%;
         padding-right: 0%;
         border-right: 0%;
@@ -19,8 +22,8 @@
         padding-top: 30px;
         width: 75%;
         padding-bottom: 30px;
-        border-bottom: 1px solid rgb(228, 187, 187);
-        border-top: 1px solid rgb(228, 187, 187);
+        border-bottom: 1px solid rgb(193, 91, 91);
+        border-top: 1px solid rgb(193, 91, 91);
     }
     .text{
         width: 80%;
@@ -29,8 +32,11 @@
         font-style: italic;
         padding-top: 15px;
         inline-size: auto;
+        color: rgb(6, 6, 6);
     }
     .list{
-        border-radius: 10%;
+        border-radius: 10px;
+        background-color: rgb(237, 235, 243);
+        
     }
 }

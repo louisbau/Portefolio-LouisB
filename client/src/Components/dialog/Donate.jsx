@@ -5,6 +5,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import "./styles.scss"
 
 export default function Donate() {
   const [open, setOpen] = React.useState(false);
@@ -51,7 +52,10 @@ export default function Donate() {
             <br></br>
             Preuve : malheuresement je n'arrive plus a retrouver le mail et je n'ai plus accès aux autres documents
           </DialogContentText>
-          <img src="assets/pc.jpg" alt=""/>
+          <div className="imgContainer">
+            <img src="assets/pc.jpg" alt=""/>
+          </div>
+          
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>

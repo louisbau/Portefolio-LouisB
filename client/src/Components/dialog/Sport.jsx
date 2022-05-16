@@ -5,6 +5,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import "./styles.scss"
 
 export default function Sport() {
   const [open, setOpen] = React.useState(false);
@@ -51,9 +52,11 @@ export default function Sport() {
             <br></br>
             Preuve : je n'ai pas beaucoup de photos
           </DialogContentText>
-          <img src="assets/facebook.png" alt=""/>
-          <img src="assets/maillot.jpg" alt=""/>
-          <img src="assets/sac.jpg" alt=""/>
+          <div className="imgContainer">
+            <img src="assets/facebook.png" alt=""/>
+            <img src="assets/maillot.jpg" alt=""/>
+            <img src="assets/sac.jpg" alt=""/>
+          </div>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>

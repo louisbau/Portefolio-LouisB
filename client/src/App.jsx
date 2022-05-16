@@ -5,6 +5,7 @@ import Menu from './Components/menu/Menu';
 import './app.scss'
 import About from './Components/about/About';
 import Activities from './Components/activities/Activities';
+import Skills from './Components/skills/Skills';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -15,6 +16,7 @@ const App = () => {
       <div className="sections">
         <Intro/>
         <About/>
+        <Skills/>
         <Activities/>
       </div>
     </div>

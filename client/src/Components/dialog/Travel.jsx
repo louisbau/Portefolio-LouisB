@@ -5,6 +5,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import "./styles.scss"
 
 export default function Travel() {
   const [open, setOpen] = React.useState(false);
@@ -51,12 +52,14 @@ export default function Travel() {
           <br></br>
           Photos :
           </DialogContentText>
-          <img src="assets/egypte.jpg" alt=""/>
-          <img src="assets/oiseau.jpg" alt=""/>
-          <img src="assets/temple.jpg" alt=""/>
-          <img src="assets/art.jpg" alt=""/>
-          <img src="assets/lsibon.jpg" alt=""/>
-          <img src="assets/map.png" alt=""/>
+          <div className="imgContainer">
+            <img src="assets/egypte.jpg" alt=""/>
+            <img src="assets/oiseau.jpg" alt=""/>
+            <img src="assets/temple.jpg" alt=""/>
+            <img src="assets/art.jpg" alt=""/>
+            <img src="assets/lsibon.jpg" alt=""/>
+            <img src="assets/map.png" alt=""/>
+          </div>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>

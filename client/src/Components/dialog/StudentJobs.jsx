@@ -5,6 +5,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import "./styles.scss"
 
 export default function StudentJobs() {
   const [open, setOpen] = React.useState(false);
@@ -50,6 +51,7 @@ export default function StudentJobs() {
             <br></br>
             <br></br>
             Preuves : 
+            <div className="imgContainer"></div>
           </DialogContentText>
         </DialogContent>
         <DialogActions>

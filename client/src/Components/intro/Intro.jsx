@@ -21,7 +21,7 @@ export default function Intro() {
           <div className="wrapper">
             <h2>HI there, I'm</h2>
             <h1>Louis Bauchau</h1>
-            <h3>IT Students <span ref={textRef}></span></h3>
+            <h3>IT Student<span ref={textRef}></span></h3>
           </div>
           <a href="#portfolio">
             <img src='assets/down.png' alt=""></img>
